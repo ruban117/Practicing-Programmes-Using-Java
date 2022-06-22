@@ -13,7 +13,7 @@ class Valid_Date{
         if(valid_date(d ,m ,y)){
             System.out.print("The Date Is:"+" "+d+"/"+m+"/"+y+" "+"Is Valid");
         }
-        if(!leap_year(y)){
+        else if(!leap_year(y)){
             System.out.print("The Date Is:"+" "+d+"/"+m+"/"+y+" "+"Is Not Valid");
         }
         else{
